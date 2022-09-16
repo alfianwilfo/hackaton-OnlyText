@@ -5,12 +5,14 @@
   padding: 0;
 }
 
+
 body {
   font: 16px/1.4 'Mulish', sans-serif;
   color: #333;
   background: #e3e9ff;
+	background-position: center;
+  background-image: url("back.jpg");
 }
-
 p {
   margin: 0 0 20px;
 }
@@ -107,7 +109,6 @@ input[type="text"]:focus {
   margin: 0 0 10px;
   border-radius: .2em;
   border: 1px solid #eee;
-  text-align: justify;
 }
 
 #textList li span,
@@ -115,7 +116,6 @@ input[type="text"]:focus {
   font: 20px/1.4 'Mulish', sans-serif;
   margin: 0 0 5px;
   display: block;
-  text-align: justify;
 }
 
 #textList li input[type="text"] {
@@ -124,7 +124,6 @@ input[type="text"]:focus {
   width: 100%;
   height: 50px;
   color: #333;
-  text-align: justify;
 }
 
 #textList li label {
@@ -165,20 +164,17 @@ responded
 #textList li.responded {
   transition: 0.4s;
   border-color: #70b3ff;
-  text-align: justify;
 }
 
 #textList li.responded label,
 #textList li.responded span {
   transition: 0.4s;
   color: #70b3ff;
-  text-align: justify;
 }
 
 @media only screen and (max-width: 840px) {
   .OText {
     margin: 20px;
-    text-align: justify;
   }
 }
 
@@ -188,22 +184,18 @@ responded
   #textForm input,
   #textForm button {
     font-size: 14px;
-    text-align: justify;
   }
 
   #header h1 {
     font-size: 20px;
-    text-align: justify;
   }
 
   #textList li span,
   #textList li input[type="text"] {
     font-size: 16px;
-    text-align: justify;
   }
 
   #textList li button {
     font-size: 12px;
-    text-align: justify;
   }
 }
